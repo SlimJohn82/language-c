@@ -20,9 +20,9 @@ int main()
 int main()
 {
 	// Create variable
-	int myNum = 15;					 // Integer (whole Number)
-	float myFloatNum = 6.95; // floating Number
-	char myLetter = 'J';		 // Character ()
+	int myNum = 15;					 // Integer (whole Number) %d
+	float myFloatNum = 6.95; // floating Number %f
+	char myLetter = 'J';		 // Character () %c
 
 	// Print variables
 	printf("%d\n", myNum);
