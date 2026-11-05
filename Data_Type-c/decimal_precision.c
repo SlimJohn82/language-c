@@ -51,7 +51,3 @@ int main()
 	printf("%.3f\n", myNum); // 3.142 (rounded up)
 	printf("%.0f", myNum);	 // 3
 }
-
-/**
- * 
- */
