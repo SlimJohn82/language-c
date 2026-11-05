@@ -1,7 +1,7 @@
 /**
  * Numeric Types
- * Use int when you need to store a whole number without decimals, like 35 or 1000,
- * and float or double when you need a floating point number (with decimals), like 9.99 or 3.14515.
+ * Utilisez-le intlorsque vous devez stocker un nombre entier sans décimales, comme 35 ou 1000,
+ * float/ou double lorsque vous avez besoin d'un nombre à virgule flottante (avec décimales), comme 9,99 ou 3,14515.
  */
 
 // Decimal Number
