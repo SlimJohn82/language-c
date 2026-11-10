@@ -4,20 +4,22 @@
  * Le caractère doit être entouré de guillemets simples, comme « A » ou « c », et nous utilisons le %cspécificateur de format pour l’imprimer.
  */
 
- #include <stdio.h>
- int main() {
+#include <stdio.h>
+int main()
+{
 	char myGarde = 'A';
 	printf("%c", myGarde);
 	return 0;
- }
+}
 
- /**
-	* Sinon, si vous connaissez l'ASCII (une norme qui attribue un numéro à chaque caractère), vous pouvez utiliser les valeurs ASCII pour afficher certains caractères.
-	* Notez que ces valeurs ne sont pas entourées de guillemets ( ''« »), car ce sont des nombres :
-  */
+/**
+ * Sinon, si vous connaissez l'ASCII (une norme qui attribue un numéro à chaque caractère), vous pouvez utiliser les valeurs ASCII pour afficher certains caractères.
+ * Notez que ces valeurs ne sont pas entourées de guillemets ( ''« »), car ce sont des nombres :
+ */
 
 #include <stdio.h>
-int main() {
+int main()
+{
 	char a = 65, b = 66, c = 67;
 	printf("%c\n", a);
 	printf("%c\n", b);
@@ -33,11 +35,12 @@ int main() {
  * Si vous imprimez un charavec %dau lieu de %c, vous voyez le nombre:
  */
 
- #include <stdio.h>
- int maun() {
+#include <stdio.h>
+int maun()
+{
 	char myLetter = 'M';
 
-	printf("%c\n", myLetter);  // M
-	printf("%d", myLetter); // 77
+	printf("%c\n", myLetter); // M
+	printf("%d", myLetter);		// 77
 	return 0;
- }
+}
