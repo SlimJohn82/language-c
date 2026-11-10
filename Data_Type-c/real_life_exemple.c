@@ -17,5 +17,3 @@ int main()
 	printf("Cost per item: %.2f %c\n", cost_per_item);
 	printf("Total cost = %.2f %c\n", total_cost, currency);
 }
-
-
