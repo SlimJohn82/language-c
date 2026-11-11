@@ -26,7 +26,7 @@ int main()
 
 /**
  * Exmple expliqué:
- * La valeur timeest 16. La première condition time < 12est fausse, mais la seconde time < 18est vraie. Par conséquent,
+ * La valeur time est 16. La première condition time < 12est fausse, mais la seconde time < 18est vraie. Par conséquent,
  * le code à l'intérieur du else if bloc s'exécute et « Bonjour » s'affiche.
  *
  * Si la valeur timeétait 22, aucune des conditions ne serait vraie et le programme afficherait plutôt « Bonsoir ».
